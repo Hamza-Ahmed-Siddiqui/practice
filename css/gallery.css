@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #e28743;
+    border: 2px solid #e28743;
+}
+.home a{
+    text-decoration: none;
+    color: #fff;
+}
+.home:hover{
+    background-color: #592716;
+    border: 2px solid #592716;
+}
+.container{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+     width: 50%;
+     padding-bottom: 50px;
+
+
+}
+
+.container .heading h3{
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{  
+    font-weight: 100;  
+}
+
+.container  .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img{  
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.container .btn{
+    margin: 40px 0 70px 0;
+    background-color: #222;
+    padding: 15px 40px ;
+    border-radius: 5px;
+}
+
+.container .btn a{
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+@media  only screen and (max-width: 769px){
+    .container  .box{  
+    flex-direction: column;       
+       }
+       .container .box .dream{       
+        width: 100%;
+    }
+}
+@media  only screen and (max-width: 643px){
+    .container .heading{
+        width: 100%;
+        
+   
+   
+   }
+   
+   .container .heading h3{
+       font-size: 1em;
+       
+   }
+   
+}
+
